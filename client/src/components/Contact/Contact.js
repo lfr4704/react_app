@@ -1,6 +1,7 @@
 import React from 'react';
 import {Form, FormGroup, Input, Label, Button } from 'reactstrap';
-import axios from 'axios'
+import axios from 'axios';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 class Contact extends React.Component{
   constructor(props){
