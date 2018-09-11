@@ -1,0 +1,36 @@
+@media(min-width: 768px){
+  .packages-container-2{
+    display: flex; /* flex aligns divs horizontally */
+    background-color: green;
+  }
+}
+
+
+.packages-container-1{
+  display: flex;
+}
+
+.box-1 {
+  flex: 1;
+}
+
+.packages-container-1 div, .packages-container-2 div {
+  border: 1px #ccc solid;
+  padding: 10px;
+}
+
+.box-2 {
+  flex: 1;
+  order: 1; /* order not needed if starts with 1 */
+}
+
+.box-3{
+  flex: 1;
+  order: 2;
+
+}
+
+.box-4{
+  flex: 1;
+  order: 3;
+}

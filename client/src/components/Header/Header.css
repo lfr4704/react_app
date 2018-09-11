@@ -1,0 +1,36 @@
+@@media(min-width: 768px) {
+  /* .box-1 img{
+    height: 315px;
+    visibility: hidden;
+  }
+  .box-3 img{
+    height: 315px;
+    visibility: hidden;
+  } */
+}
+
+.header-container{
+  display: flex;
+  overflow: hidden;
+}
+
+.header-container div {
+
+}
+
+.box-1 img{
+  height: 315px;
+
+}
+
+.box-2{
+}
+
+.box-3 img{
+  height: 315px;
+
+}
+
+img {
+  margin: -0px 0 -40px 0;
+}
